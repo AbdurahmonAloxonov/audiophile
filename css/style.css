@@ -332,6 +332,7 @@ hr {
 
 .main-content2-link:hover {
   background-color: #000;
+  color: #fff;
 }
 
 .main-content2-image {
@@ -441,32 +442,53 @@ hr {
 }
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  width: 1440px;
-  height: 365px;
+  width: 1110px;
   background-color: #101010;
-  margin-left: -150px;
+  height: 250px;
+  padding: 75px 165px;
 }
 
-.footer-logo {
-  width: 143px;
-  height: 25px;
-  margin-right: 500px;
+.fotter__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
 }
 
-.footer-list {
-  display: inline-flex;
-  margin-left: 165px;
-  padding-top: 75px;
+.fotter__sitenav__item {
+  display: flex;
+  gap: 34px;
+  margin-top: -1px;
 }
 
-.footer-p {
+.fotter__sitenav__link {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.fotter__sitenav__link:hover {
+  color: #D87D4A;
+}
+
+.fotter__text {
+  display: flex;
+  justify-content: space-between;
+}
+.fotter__text p {
   width: 540px;
-  color: #FFF;
-  font-family: Manrope;
+  color: #fff;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 25px;
+  opacity: 0.5;
+}
+.fotter__text ul {
+  margin-top: 70px;
+  display: flex;
+  gap: 16px;
+}
+.fotter__text a:hover svg path {
+  fill: #D87D4A;
 }/*# sourceMappingURL=style.css.map */
